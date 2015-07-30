@@ -15,10 +15,10 @@
   
   <template>
     <iron-ajax id="dataService"
-               url="/token"
+               url="/random"
                on-response="updateData"></iron-ajax>
     <div class="bubble">
-    Token: <span>[[mydata.token]]</span><br>
+    Token: <span>[[mydata.id]]</span><br>
     <paper-button on-click="getData">Get That Data</paper-button>
     </div>
   </template>
@@ -30,7 +30,7 @@
       properties: {
     	mydata: {
           type: Object,
-          value: { "token" : "argle flargle" }
+          value: { "id" : "argle flargle" }
         }
       },
       getData: function() {

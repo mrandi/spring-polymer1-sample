@@ -1,8 +1,8 @@
 # Simple Spring/Polymer Sample
 
-Generated with Spring Starter (Web+Actuator)
+Project created with Spring Starter (Web+Actuator)
 
-Applicaiton left untouched.
+Generated Application calss left untouched.
 
 Created RestController.
 
