@@ -2,7 +2,7 @@
 
 Project created with Spring Starter (Web+Actuator)
 
-Generated Application calss left untouched.
+Generated Application class left untouched.
 
 Created RestController.
 
